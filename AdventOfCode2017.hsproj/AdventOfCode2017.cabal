@@ -11,7 +11,11 @@ Executable AdventOfCode2017
   buildable: True
   build-depends:
       HUnit -any,
-      base -any
+      base -any,
+      tardis -any
   default-language: Haskell2010
   other-modules:
+      Day1v2
       Tests
+      Day1v1
+      Day2
