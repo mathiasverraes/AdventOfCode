@@ -7,22 +7,24 @@ import Day2
 
 runAllTests = runTestTT tests
 
-tests = TestList 
+tests = TestList
           [ day1v1 "1122" 3
           , day1v1 "1234" 0
           , day1v1 "1111" 4
           , day1v1 "91212129" 9
           , day1v1 challenge 1390
+          
           , day1v2 "1122" 3
           , day1v2 "1234" 0
           , day1v2 "1111" 4
           , day1v2 "91212129" 9
           , day1v2 challenge 1390
+          
           , day2 "1221" 0
           , day2 "123425" 4
           , day2 "123123" 12
           , day2 "12131415" 4
-          , day2 challenge 1390
+          , day2 challenge 1232
           ]
 
 
